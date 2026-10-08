@@ -33,7 +33,6 @@ async function fetchPosts() {
 
       li.innerHTML = `${thumbHtml}
         <div class="blog-body">
-          <span class="blog-tag">최근 작업</span>
           <a href="${link}" target="_blank" rel="noopener">${title}</a>
           ${summary ? `<p class="blog-summary">${summary}</p>` : ""}
           ${date ? `<div class="blog-date">📅 ${date}</div>` : ""}
