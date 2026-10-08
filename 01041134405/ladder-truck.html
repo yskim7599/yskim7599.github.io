@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>충북 중부연합사다리차</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noto Sans KR', Arial, sans-serif;
+            background: #f8f9fa;
+            color: #222;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 1em;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #FFD600;
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+        .banner-content {
+            background: rgba(0,0,0,0.4);
+            padding: 40px 60px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .banner-content h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .banner-content p {
+            font-size: 1.2em;
+        }
+        .section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 40px 30px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #222;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .service {
+            flex: 1 1 250px;
+            background: #f6f6f6;
+            border-radius: 10px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+        .service img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+        .service h3 {
+            margin: 10px 0 8px 0;
+            font-size: 1.2em;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background: #FFD600;
+            color: #222;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .contact-form button:hover {
+            background: #FFC400;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+            font-size: 0.95em;
+        }
+        @media (max-width: 700px) {
+            .section { padding: 20px 5px; }
+            .banner-content { padding: 20px 10px; }
+            .services { flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">충북 중부연합사다리차</div>
+        <nav>
+            <a href="#service">서비스</a>
+            <a href="#about">회사소개</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="banner-content">
+            <h1>진천군 음성군 사다리차 전문업체<br>충북 중부연합사다리차!!</h1>
+            <p>진천사다리차 / 음성사다리차<br>이사, 건설, 고층 운반까지!<br>전문가가 신속하게 도와드립니다.</p>
+        </div>
+    </div>
+    <div class="main-image" style="text-align:center; margin: 30px 0;">
+        <a href="tel:01041134405">
+            <img src="ladder-main.jpg" alt="중부연합사다리차 홍보 이미지" style="max-width:100%; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.12); cursor:pointer;">
+        </a>
+    </div>
+    <section class="section" id="service">
+        <div class="section-title">주요 서비스</div>
+        <div class="services">
+            <div class="service">
+                <img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" alt="이사 서비스">
+                <h3>이사 사다리차</h3>
+                <p>고층 아파트, 오피스텔, 주택 이사에 최적화된 사다리차 운반 서비스</p>
+            </div>
+            <div class="service">
+                <img src="https://cdn-icons-png.flaticon.com/512/1046/1046876.png" alt="건설 자재 운반">
+                <h3>건설 자재 운반</h3>
+                <p>건설 현장, 리모델링 등 무거운 자재도 안전하게 운반</p>
+            </div>
+            <div class="service">
+                <img src="https://cdn-icons-png.flaticon.com/512/1046/1046861.png" alt="특수 운반">
+                <h3>특수/대형 운반</h3>
+                <p>가구, 가전, 대형 물품 등 다양한 운반 경험 보유</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <div class="section-title">회사 소개</div>
+        <p style="text-align:center; max-width:600px; margin:0 auto;">
+            진천군 음성군 사다리차 전문업체 <b>충북 중부연합사다리차!!</b><br>
+            <b>진천사다리차 / 음성사다리차</b><br>
+            <b>주소: 충청북도 진천군 진천읍 장관2길 139</b><br><br>
+            저희 충북 중부연합사다리차는 다년간의 경험과 노하우를 바탕으로<br>
+            고객님의 소중한 짐을 안전하고 신속하게 운반해드립니다.<br>
+            언제든 믿고 맡기실 수 있는 최고의 서비스를 약속드립니다.<br>
+            <br>
+            <b>대표번호: <a href="tel:01041134405" style="color:inherit;text-decoration:underline;">010-4113-4405</a></b><br>
+            <b>운영시간: 08:00 ~ 20:00 (연중무휴)</b>
+            <div style="margin: 18px 0 0 0; text-align:center;">
+                <!-- 구글 지도 iframe -->
+                <iframe src="https://www.google.com/maps?q=충청북도+진천군+진천읍+장관2길+139&output=embed" width="100%" height="320" style="border:1px solid #ccc; border-radius:10px; max-width:500px;" allowfullscreen loading="lazy"></iframe>
+                <div style="font-size:0.95em; color:#888; margin-top:4px;">※ 구글지도로 위치를 확인하세요</div>
+            </div>
+        </p>
+    </section>
+    <footer>
+        &copy; 2024 충북 중부연합사다리차. All rights reserved.
+    </footer>
+</body>
+</html> 
