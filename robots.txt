@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://www.jbsadari.cloud/sitemap.xml
